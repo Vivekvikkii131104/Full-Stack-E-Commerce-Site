@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProShop E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">ProShop</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/" class="active">Products</a></li>
+                    <li><a href="/cart.html"><i class="fas fa-shopping-cart"></i> Cart (<span id="cartItemCount">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-content">
+            <h1>Discover Our Latest Electronics</h1>
+            <p>High-quality gadgets for your everyday needs.</p>
+            <a href="#product-listing" class="btn btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <main class="container main-content" id="product-listing">
+        <section class="product-filters">
+            <input type="text" id="searchInput" placeholder="Search products..." aria-label="Search products">
+            <select id="sortSelect" aria-label="Sort products by">
+                <option value="default">Sort by Default</option>
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+                <option value="name-asc">Name: A-Z</option>
+                <option value="name-desc">Name: Z-A</option>
+            </select>
+            <button id="clearFiltersBtn" class="btn-clear"><i class="fas fa-times"></i> Clear Filters</button>
+        </section>
+
+        <section class="product-grid" id="productGrid">
+            <p id="loadingMessage" class="info-message">Loading products...</p>
+            <p id="errorMessage" class="error-message hidden">Failed to load products. Please check the server.</p>
+            <p id="noProductsFound" class="info-message hidden">No products found matching your criteria.</p>
+            </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 ProShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

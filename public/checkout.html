@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - ProShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">ProShop</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/">Products</a></li>
+                    <li><a href="/cart.html" class="active"><i class="fas fa-shopping-cart"></i> Cart (<span id="cartItemCount">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content checkout-page-container">
+        <h1>Checkout</h1>
+        <div class="checkout-steps">
+            <span class="step active">1. Shipping</span>
+            <span class="step">2. Payment</span>
+            <span class="step">3. Review & Place Order</span>
+        </div>
+
+        <form id="checkoutForm" class="checkout-form">
+            <section class="shipping-section form-card">
+                <h2>Shipping Information</h2>
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                    <div class="error-message hidden" id="fullNameError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required placeholder="123 Main St">
+                    <div class="error-message hidden" id="addressError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required placeholder="Anytown">
+                    <div class="error-message hidden" id="cityError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="zipCode">Zip Code</label>
+                    <input type="text" id="zipCode" name="zipCode" required placeholder="12345">
+                    <div class="error-message hidden" id="zipCodeError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    <div class="error-message hidden" id="emailError"></div>
+                </div>
+            </section>
+
+            <section class="payment-section form-card hidden">
+                <h2>Payment Details</h2>
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" id="cardNumber" name="cardNumber" required placeholder="XXXX XXXX XXXX XXXX" maxlength="19">
+                    <div class="error-message hidden" id="cardNumberError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="cardName">Name on Card</label>
+                    <input type="text" id="cardName" name="cardName" required placeholder="John Doe">
+                    <div class="error-message hidden" id="cardNameError"></div>
+                </div>
+                <div class="form-group form-row">
+                    <div class="form-group">
+                        <label for="expDate">Expiry Date (MM/YY)</label>
+                        <input type="text" id="expDate" name="expDate" required placeholder="MM/YY" maxlength="5">
+                        <div class="error-message hidden" id="expDateError"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" required placeholder="XXX" maxlength="3">
+                        <div class="error-message hidden" id="cvvError"></div>
+                    </div>
+                </div>
+                <p class="payment-note">**This is a dummy payment integration for demonstration purposes only. Do not use real card details.**</p>
+            </section>
+
+            <section class="order-summary-section form-card hidden">
+                <h2>Order Review</h2>
+                <div id="reviewItems" class="review-items">
+                    </div>
+                <div class="summary-line"><span>Subtotal:</span> <span id="reviewSubtotal">$0.00</span></div>
+                <div class="summary-line"><span>Shipping:</span> <span>$0.00</span></div>
+                <div class="summary-total"><span>Total:</span> <span id="reviewTotal">$0.00</span></div>
+            </section>
+
+            <div class="checkout-navigation">
+                <button type="button" class="btn btn-secondary hidden" id="prevStepBtn"><i class="fas fa-chevron-left"></i> Previous</button>
+                <button type="button" class="btn btn-primary" id="nextStepBtn">Next <i class="fas fa-chevron-right"></i></button>
+                <button type="submit" class="btn btn-primary hidden" id="placeOrderBtn">Place Order <i class="fas fa-check"></i></button>
+            </div>
+        </form>
+        <p id="checkoutErrorMessage" class="error-message hidden"></p>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 ProShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="checkout-script.js"></script>
+</body>
+</html>

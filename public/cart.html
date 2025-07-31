@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart - ProShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">ProShop</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/">Products</a></li>
+                    <li><a href="/cart.html" class="active"><i class="fas fa-shopping-cart"></i> Cart (<span id="cartItemCount">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content cart-page-container">
+        <h1>Your Shopping Cart</h1>
+        <section class="cart-items-section" id="cartItemsSection">
+            <p id="emptyCartMessage" class="info-message hidden">Your cart is empty. <a href="/" class="btn-link">Start Shopping!</a></p>
+            </section>
+
+        <section class="cart-summary-section">
+            <div class="cart-summary-card">
+                <h2>Order Summary</h2>
+                <div class="summary-line">
+                    <span>Subtotal:</span> <span id="cartSubtotal">$0.00</span>
+                </div>
+                <div class="summary-line">
+                    <span>Shipping:</span> <span>$0.00</span> </div>
+                <div class="summary-total">
+                    <span>Total:</span> <span id="cartTotal">$0.00</span>
+                </div>
+                <a href="/checkout.html" class="btn btn-primary btn-proceed-checkout" id="proceedToCheckoutBtn">Proceed to Checkout <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 ProShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="cart-script.js"></script>
+</body>
+</html>

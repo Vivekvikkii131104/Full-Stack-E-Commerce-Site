@@ -1,0 +1,152 @@
+[
+  {
+    "id": "prod1",
+    "name": "Stylish Smartwatch",
+    "description": "Stay connected and track your fitness with this elegant smartwatch. Features include heart rate monitoring, sleep tracking, and notification alerts.",
+    "price": 129.99,
+    "category": "Electronics",
+    "imageUrl": "/images/watch.png",
+    "stock": 10,
+    "rating": 4.5
+  },
+  {
+    "id": "prod2",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "description": "Immersive sound experience with industry-leading noise cancellation. Perfect for travel and daily commutes. Long-lasting battery life.",
+    "price": 199.99,
+    "category": "Audio",
+    "imageUrl": "/images/headphone.png",
+    "stock": 5,
+    "rating": 4.8
+  },
+  {
+    "id": "prod3",
+    "name": "Ultra-Thin Laptop",
+    "description": "Powerful performance in a sleek, lightweight design. Ideal for professionals on the go. High-resolution display and all-day battery.",
+    "price": 899.99,
+    "category": "Computers",
+    "imageUrl": "/images/laptop.png",
+    "stock": 3,
+    "rating": 4.7
+  },
+  {
+    "id": "prod4",
+    "name": "Ergonomic Office Chair",
+    "description": "Designed for maximum comfort and support during long working hours. Adjustable features to suit your posture. Enhances productivity.",
+    "price": 249.00,
+    "category": "Home & Office",
+    "imageUrl": "/images/chair.png",
+    "stock": 8,
+    "rating": 4.2
+  },
+  {
+    "id": "prod5",
+    "name": "Portable Bluetooth Speaker",
+    "description": "Compact speaker with rich, powerful sound. Perfect for outdoor adventures or home entertainment. Waterproof design and extended playtime.",
+    "price": 79.50,
+    "category": "Audio",
+    "imageUrl": "/images/speaker.png",
+    "stock": 15,
+    "rating": 4.3
+  },
+  {
+    "id": "prod6",
+    "name": "High-Performance Gaming Keyboard",
+    "description": "Mechanical keys with customizable RGB lighting. Built for speed and precision during intense gaming sessions.",
+    "price": 120.00,
+    "category": "Electronics",
+    "imageUrl": "/images/keyboard.png",
+    "stock": 7,
+    "rating": 4.6
+  },
+  {
+    "id": "prod7",
+    "name": "Stylish Coffee Mug",
+    "description": "A minimalist ceramic mug for your daily dose of coffee. Microwave and dishwasher safe. A perfect addition to any modern kitchen.",
+    "price": 15.00,
+    "category": "Home & Office",
+    "imageUrl": "/images/mug.png",
+    "stock": 25,
+    "rating": 4.0
+  },
+  {
+    "id": "prod8",
+    "name": "4K Ultra HD Monitor",
+    "description": "Experience stunning clarity and vibrant colors. Features a thin bezel design and multiple connectivity options for a versatile setup.",
+    "price": 450.00,
+    "category": "Computers",
+    "imageUrl": "/images/monitor.png",
+    "stock": 4,
+    "rating": 4.9
+  },
+  {
+    "id": "prod9",
+    "name": "Fitness Tracker Bracelet",
+    "description": "Monitor your heart rate, steps, and calories burned with this sleek and lightweight fitness tracker. Syncs with your smartphone for detailed insights.",
+    "price": 55.00,
+    "category": "Electronics",
+    "imageUrl": "/images/fitness tracker.png",
+    "stock": 12,
+    "rating": 4.1
+  },
+  {
+    "id": "prod10",
+    "name": "Classic Leather Wallet",
+    "description": "Handcrafted from genuine leather with multiple card slots and a coin pouch. A timeless accessory for everyday use.",
+    "price": 35.00,
+    "category": "Accessories",
+    "imageUrl": "/images/wallet.png",
+    "stock": 20,
+    "rating": 4.6
+  },
+  {
+    "id": "prod11",
+    "name": "The Great Dev Journey Book",
+    "description": "An inspiring book chronicling the challenges and triumphs of becoming a professional developer. Essential reading for every coder.",
+    "price": 29.99,
+    "category": "Books",
+    "imageUrl": "/images/book.png",
+    "stock": 50,
+    "rating": 4.9
+  },
+  {
+    "id": "prod12",
+    "name": "Smart Home Hub",
+    "description": "Control all your smart home devices from one central hub. Compatible with all major platforms. A must-have for a connected home.",
+    "price": 149.00,
+    "category": "Electronics",
+    "imageUrl": "/images/smart home.png",
+    "stock": 7,
+    "rating": 4.4
+  },
+  {
+    "id": "prod13",
+    "name": "Portable Power Bank 20000mAh",
+    "description": "Keep your devices charged on the go with this high-capacity power bank. Features quick charging and a compact design.",
+    "price": 45.00,
+    "category": "Electronics",
+    "imageUrl": "/images/powerbank.png",
+    "stock": 18,
+    "rating": 4.7
+  },
+  {
+    "id": "prod14",
+    "name": "Wireless Charging Pad",
+    "description": "A sleek and convenient way to charge your smartphone and earbuds. Features fast charging and a non-slip surface.",
+    "price": 39.99,
+    "category": "Electronics",
+    "imageUrl": "/images/charging pad.png",
+    "stock": 22,
+    "rating": 4.3
+  },
+  {
+    "id": "prod15",
+    "name": "Mechanical Pencil Set",
+    "description": "A set of high-quality mechanical pencils for architects, designers, and students. Smooth writing and durable construction.",
+    "price": 19.50,
+    "category": "Home & Office",
+    "imageUrl": "/images/pencil.png",
+    "stock": 30,
+    "rating": 4.0
+  }
+]

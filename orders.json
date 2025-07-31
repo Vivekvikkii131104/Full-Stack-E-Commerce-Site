@@ -1,0 +1,98 @@
+[
+  {
+    "shippingInfo": {
+      "fullName": "Vivek Srivas",
+      "address": "Saket Nagar Khailar BHEL Jhansi",
+      "city": "Jhansi",
+      "zipCode": "284120",
+      "phone": "07753062858",
+      "email": "xyz@gmail.com"
+    },
+    "items": [
+      {
+        "id": "prod1",
+        "name": "Stylish Smartwatch",
+        "price": 129.99,
+        "image": "https://via.placeholder.com/600x400/1A237E/FFFFFF?text=Smartwatch",
+        "quantity": 1
+      },
+      {
+        "id": "prod5",
+        "name": "Portable Bluetooth Speaker",
+        "price": 79.5,
+        "image": "https://via.placeholder.com/600x400/673AB7/FFFFFF?text=Speaker",
+        "quantity": 1
+      }
+    ],
+    "totals": {
+      "subtotal": 209.49,
+      "total": 209.49
+    },
+    "id": "order_1753965239940",
+    "timestamp": "2025-07-31T12:33:59.940Z"
+  },
+  {
+    "shippingInfo": {
+      "fullName": "Vivek Srivas",
+      "address": "Saket Nagar Khailar BHEL Jhansi",
+      "city": "Jhansi",
+      "zipCode": "284120",
+      "phone": "07753062858",
+      "email": "xyz@gmail.com"
+    },
+    "items": [
+      {
+        "id": "prod1",
+        "name": "Stylish Smartwatch",
+        "price": 129.99,
+        "image": "https://via.placeholder.com/600x400/1A237E/FFFFFF?text=Smartwatch",
+        "quantity": 1
+      },
+      {
+        "id": "prod5",
+        "name": "Portable Bluetooth Speaker",
+        "price": 79.5,
+        "image": "https://via.placeholder.com/600x400/673AB7/FFFFFF?text=Speaker",
+        "quantity": 1
+      },
+      {
+        "id": "prod12",
+        "name": "Smart Home Hub",
+        "price": 149,
+        "image": "https://via.placeholder.com/600x400/546E7A/FFFFFF?text=Smart+Hub",
+        "quantity": 1
+      }
+    ],
+    "totals": {
+      "subtotal": 358.49,
+      "total": 358.49
+    },
+    "id": "order_1753965898191",
+    "timestamp": "2025-07-31T12:44:58.191Z"
+  },
+  {
+    "shippingInfo": {
+      "fullName": "shivaa",
+      "address": "banda",
+      "city": "atarra",
+      "zipCode": "45213",
+      "phone": "4253895624",
+      "email": "shiva@gmail.com"
+    },
+    "items": [
+      {
+        "id": "prod15",
+        "name": "Mechanical Pencil Set",
+        "price": 19.5,
+        "image": "/images/pencil.png",
+        "quantity": 1
+      }
+    ],
+    "totals": {
+      "subtotal": 19.5,
+      "total": 19.5
+    },
+    "id": "order_1753981251125",
+    "timestamp": "2025-07-31T17:00:51.125Z"
+  }
+]
